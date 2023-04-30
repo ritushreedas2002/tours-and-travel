@@ -91,5 +91,8 @@
     .glow-on-hover {
       font-size: 1rem;
       height: 30px;
+      width:200px;
+      margin-left: 100px;;
+      
     }
   }
