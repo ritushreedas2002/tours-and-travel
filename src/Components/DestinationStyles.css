@@ -1,0 +1,137 @@
+
+.destination{
+    background-color: black;
+    color:white;
+}
+.destination h1{
+    font-size: 3.4rem;
+    
+    padding-top: 90px;
+    margin:0rem 30rem;
+
+}
+.para{
+    margin:0rem 30rem;
+    
+    font-size: 1.5rem;
+}
+.first-des{
+    margin:4.5rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-des-reverse{
+    margin-top:4.5rem;
+    margin-right: 4.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:23rem;
+    
+}
+.des-text{
+    padding-top: 10px;
+    width:45%;
+    text-align: start;
+    font-size: 1.14rem;
+}
+.des-text h2{
+    padding-bottom: 1rem;
+}
+.des-image{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+}
+.des-image img{
+    width:250px;
+    height:250px;
+    padding:10px;
+    object-fit: cover;
+    
+    border-radius: 30px;
+}
+.des-image img:nth-child(2){
+    position: absolute;
+    top:-10%;
+    right:100%;
+}
+.des-image img:hover{
+    cursor:pointer;
+    transform: translateY(-10%);
+    
+    transition:all 0.4s ease-in-out;
+}
+@media screen and (max-width:1024px){
+    .destination h1{
+        font-size: 2.3rem;
+        margin:0rem 25rem;
+    }
+    .para{
+        font-size: 1.5rem;
+        margin:0rem 3rem;
+    }
+}
+@media screen and (max-width:850px){
+    .destination h1{
+        margin:0rem 13rem;
+        padding-right: 3opx;
+    }
+    .para{
+        padding-right: 3opx;
+        margin:0rem 3rem;
+    }
+    .first-des{
+        margin:4.5rem 3rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+        justify-content: space-between;
+    }
+    .first-des-reverse{
+        margin:0rem 3rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+        justify-content: space-between;
+    }
+
+    .des-text{
+        margin:0px;
+        width:100%;
+    }
+    .des-image{
+        margin-left: 15rem;
+        
+    }
+    
+}
+@media screen and (max-width:538px){
+    .destination h1{
+        font-size: 2.4rem;
+        margin: 0rem 4rem;
+    }  
+    .para{
+        margin:0rem 4rem;
+        
+        font-size: 1rem;
+    }  
+    .des-image{
+        margin-left: 11rem;
+        
+    }
+    .des-image img{
+        width:160px;
+        height:160px;
+    }
+    .des-text{
+        width:100%;
+        height:50%;
+        margin:0px;
+    }
+}

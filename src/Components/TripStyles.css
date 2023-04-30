@@ -1,0 +1,177 @@
+.trip1{
+    background-color: black;
+    color:white;
+}
+.trip{
+    margin:0rem 6rem;
+}
+.trip h2{
+    padding-top: 60px;
+    margin-left: 28rem;
+    font-size: 60px;
+}
+.para1{
+    margin-left: 23rem;
+    font-size: 25px;
+}
+.tripcard{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.t-card{
+    width:32%;
+    height:20%;
+    text-align: start;
+    border-radius: 30px;
+    padding:6rem 0.8rem;
+    cursor: pointer;
+    
+}
+.t-card h4{
+    padding-top: 5px;
+    padding-left: 35px;
+}
+.t-image img{
+    width:250px;
+    height:250px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.t-image:hover img{
+    transform:scale(0.8);
+}
+@media screen and (max-width:870px){
+    .tripcard{
+        margin-top: 0rem;
+    }
+    .trip{
+        margin: 0rem 1rem;
+    }
+    .trip h2{
+        padding-top: 60px;
+        margin-left: 16rem;
+        font-size: 40px;
+    }
+    .para1{
+        margin-left: 16rem;
+        font-size: 15px;
+    }
+    .tripcard{
+        display: flex;
+        flex-direction: column;
+    }
+    .t-card{
+        width:100%;
+        padding:10px;
+    }
+    .t-image img{
+        margin-left: 10rem;
+        width:400px;
+        height:250px;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+    .t-card h4{
+        padding-top: 5px;
+        margin-left: 15rem;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:720px){
+    .trip{
+        margin:0rem 0rem;
+    }
+    .t-image img{
+        margin-left: 8rem;
+        width:350px;
+        height:250px;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+    .t-card h4{
+        padding-top: 5px;
+        margin-left: 12rem;
+        font-size: 30px;
+    }
+    .trip h2{
+        padding-top: 60px;
+        margin-left: 13rem;
+        font-size: 30px;
+    }
+    .para1{
+        margin-left: 7rem;
+        font-size: 21px;
+        margin-bottom: 7rem;
+    }
+}
+@media screen and (max-width:569px){
+    .t-image img{
+        margin-left: 4rem;
+        width:350px;
+        height:250px;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+    .t-card h4{
+        padding-top: 5px;
+        margin-left: 6rem;
+        font-size: 30px;
+    }
+    .para1{
+        margin-left: 5rem;
+        font-size: 21px;
+        margin-bottom: 7rem;
+    }
+    .t-card p{
+        margin-left:3rem;
+    }
+}
+@media screen and (max-width:465px){
+    .t-image img{
+        margin-left: 3rem;
+        width:300px;
+        height:200px;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+    .t-card h4{
+        padding-top: 5px;
+        margin-left: 4rem;
+        font-size: 30px;
+    }
+    .trip h2{
+        padding-top: 60px;
+        margin-left: 7rem;
+        font-size: 30px;
+    }
+    .para1{
+        margin-left: 4rem;
+        font-size: 21px;
+        margin-bottom: 7rem;
+    }
+}
+@media screen and (max-width:412px){
+    .t-image img{
+        margin-left: 3rem;
+        width:250px;
+        height:200px;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+    .t-card h4{
+        padding-top: 5px;
+        margin-left: 3rem;
+        font-size: 25px;
+    }
+    .trip h2{
+        padding-top: 60px;
+        margin-left: 7rem;
+        font-size: 30px;
+    }
+    .para1{
+        margin-left: 2rem;
+        font-size: 15px;
+        margin-bottom: 7rem;
+    }
+}

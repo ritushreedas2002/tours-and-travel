@@ -1,0 +1,38 @@
+
+img{
+    height:625px;
+    width: 1350px;
+    z-index: -1;
+    top: 0%;
+  }
+  
+  .travel{
+    top:100px;
+    text-align: center;
+    width:800px;
+    height:50px;
+    color:antiquewhite;
+    background-color:black;
+    border-radius: 20px;
+    font-size: 30px;
+  }
+  .travel:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scaleX(1.2);
+    transform: scaleY(1.2);
+    translate:all 0.3s ease-in-out;
+  }
+  @media screen and (max-width:850px) {
+    .travel{
+      visibility:hidden;
+    }
+    
+  }
+  @media screen and (max-width:300px) {
+    .travel{
+      visibility: hidden;
+    }
+    
+  }
+  
